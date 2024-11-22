@@ -1,3 +1,6 @@
+"use client";
+import { useState } from "react";
+
 const ContactForm = () => {
   const [mailData, setMailData] = useState({
     to_name: "Nate",
@@ -9,8 +12,9 @@ const ContactForm = () => {
   const { from_name, reply_to, message, phone } = mailData;
   const [error, setError] = useState(null);
 
-  const onChangeMailData = (e) =>
+  const onChangeMailData = (e) => {
     setMailData({ ...mailData, [e.target.name]: e.target.value });
+  };
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -34,7 +38,12 @@ const ContactForm = () => {
           (response) => {
             setError(false);
             clearError();
-            setMailData({ from_name: "", reply_to: "", message: "" });
+            setMailData({
+              from_name: "",
+              reply_to: "",
+              message: "",
+              phone: "",
+            });
           },
           (err) => {
             console.log(err.text);
@@ -67,8 +76,8 @@ const ContactForm = () => {
               id="contact_form"
               className="position-relative z1000"
               method="post"
-              action="#"
-              onSubmit={() => onSubmit()}
+              // action="#"
+              onSubmit={onSubmit}
             >
               <div className="row gx-4">
                 <div className="col-lg-6 col-md-6 mb10">
@@ -81,7 +90,7 @@ const ContactForm = () => {
                       className="form-control no-border"
                       placeholder="Your Name"
                       required
-                      onchange={(e) => onChangeMailData(e)}
+                      onChange={onChangeMailData}
                       value={from_name}
                     />
                   </div>
@@ -94,7 +103,7 @@ const ContactForm = () => {
                       className="form-control no-border"
                       placeholder="Your Email"
                       required
-                      onchange={(e) => onChangeMailData(e)}
+                      onChange={onChangeMailData}
                       value={reply_to}
                     />
                   </div>
@@ -107,7 +116,7 @@ const ContactForm = () => {
                       className="form-control no-border"
                       placeholder="Your Phone"
                       required
-                      onchange={(e) => onChangeMailData(e)}
+                      onChange={onChangeMailData}
                       value={phone}
                     />
                   </div>
@@ -122,7 +131,7 @@ const ContactForm = () => {
                       placeholder="Your Message"
                       required
                       defaultValue={""}
-                      onchange={(e) => onChangeMailData(e)}
+                      onChange={onChangeMailData}
                       value={message}
                     />
                   </div>
@@ -145,7 +154,7 @@ const ContactForm = () => {
                 you want to send more messages.
               </div>
               <div id="error_message" className="error">
-                Sorry there was an error sending your form.
+                Sorry there was an error sending your form. {error}
               </div>
             </form>
           </div>
@@ -176,19 +185,17 @@ export const ContactForm1 = () => {
               className="form-control no-border"
               placeholder="Your Name"
               required
-              onchange={(e) => onChangeMailData(e)}
             />
           </div>
           <div className="field-set">
             <span className="d-label fw-bold">Email</span>
             <input
               type="text"
-              name="Email"
+              name="email"
               id="email"
               className="form-control no-border"
               placeholder="Your Email"
               required
-              onchange={(e) => onChangeMailData(e)}
             />
           </div>
           <div className="field-set">
@@ -200,7 +207,6 @@ export const ContactForm1 = () => {
               className="form-control no-border"
               placeholder="Your Phone"
               required
-              onchange={(e) => onChangeMailData(e)}
             />
           </div>
         </div>
@@ -214,7 +220,6 @@ export const ContactForm1 = () => {
               placeholder="Your Message"
               required
               defaultValue={""}
-              onChange={(e) => onChangeMailData(e)}
             />
           </div>
         </div>
