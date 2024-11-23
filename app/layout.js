@@ -1,6 +1,5 @@
 import "../public/css/bootstrap.min.css";
 import "../public/css/coloring.css";
-import "../public/css/coloring.css";
 import "../public/css/plugins.css";
 import "../public/css/style.css";
 import "slick-carousel/slick/slick-theme.css";

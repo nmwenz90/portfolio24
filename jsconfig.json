@@ -1,4 +1,5 @@
 {
+  "baseurl": ".",
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
