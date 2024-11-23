@@ -1,10 +1,10 @@
-import bootstrap from "@css/bootstrap.min.css";
-import coloring from "@css/coloring.css";
-import plugins from "@css/plugins.css";
-import style from "@css/style.css";
+import "@css/bootstrap.min.css";
+import "@css/coloring.css";
+import "@css/plugins.css";
+import "@css/style.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import globals from "./globals.css";
+import "./globals.css";
 
 import { Inter } from "next/font/google";
 import Preloader from "@/layouts/Preloader";
