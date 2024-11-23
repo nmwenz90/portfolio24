@@ -1,7 +1,7 @@
-import "@css/bootstrap.min.css";
-import "@css/coloring.css";
-import "@css/plugins.css";
-import "@css/style.css";
+import "./bootstrap.min.css";
+import "./coloring.css";
+import "./plugins.css";
+import "./style.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./globals.css";
