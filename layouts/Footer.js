@@ -15,17 +15,17 @@ const Footer = ({ footerShape = false }) => {
               <div className="d-menu-1 wow" data-wow-delay=".3s">
                 <ul>
                   <li>
-                    <a href="https://www.instagram.com/natekodi/">Instagram</a>
+                    <a href="https://www.instagram.com/dj_lubaba">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://x.com/NateKodi">X</a>
+                    <a href="https://x.com/dj_lubaba">X</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://linktr.ee/natekodi">Linktree</a>
-                  </li>
+                  </li> */}
                 </ul>
                 <p className="no-bottom">
-                  All Right Reserved
+                  All Rights Reserved
                   {/* <br />
                   Template By Designesia */}
                 </p>

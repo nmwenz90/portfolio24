@@ -21,7 +21,7 @@ const page = () => {
         <div id="top" />
         <section className="no-top">
           <div className="text-fit-wrapper">
-            <FitParentTitle title={"NATEKODI"} />
+            <FitParentTitle title={"DJ LUBABA"} />
             <Header activePage="1" />
           </div>
           <div className="spacer-double" />

@@ -102,7 +102,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                       width="100%"
                       height="380"
                       src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2Fnatekodi%2F"
-                      frameborder="0"
+                      // frameBorder="0"
                     ></iframe>
                   </div>
                 </div>
@@ -119,11 +119,40 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                     <iframe
                       width="100%"
                       height="380"
-                      scrolling="no"
-                      frameborder="no"
-                      allow="autoplay"
-                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/506100519&color=%23140b04&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1991445119&color=%23140b04&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     ></iframe>
+                    <div
+                      style={{
+                        fontSize: "10px",
+                        color: "#cccccc",
+                        lineBreak: "anywhere",
+                        wordBreak: "normal",
+                        overflow: "hidden",
+                        whiteSpace: "nowrap",
+                        textOverflow: "ellipsis",
+                        fontFamily:
+                          "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
+                        fontWeight: "100",
+                      }}
+                    >
+                      <a
+                        href="https://soundcloud.com/dj_lubaba"
+                        title="DJ Lubaba"
+                        target="_blank"
+                        style={{ color: "#cccccc", textDecoration: "none" }}
+                      >
+                        DJ Lubaba
+                      </a>{" "}
+                      ·{" "}
+                      <a
+                        href="https://soundcloud.com/dj_lubaba/dj-lubaba-chill-ama-mix"
+                        title="DJ LUBABA - CHILL Amapiano MIX"
+                        target="_blank"
+                        style={{ color: "#cccccc", textDecoration: "none" }}
+                      >
+                        DJ LUBABA - CHILL Amapiano MIX
+                      </a>
+                    </div>
                   </div>
                 </div>
               );
@@ -135,7 +164,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                       isVariant2 ? "" : "text-light"
                     }`}
                   >
-                    <Link
+                    {/* <Link
                       href={
                         isVariant2 ? "03_work-single" : "https://reactime.io/"
                       }
@@ -163,7 +192,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                           {work.year}
                         </div>
                       </div>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               );

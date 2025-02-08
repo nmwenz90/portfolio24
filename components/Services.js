@@ -2,8 +2,8 @@ const Services = ({ variant = "default" }) => {
   const servicesData = {
     default: [
       {
-        title: "Event DJing",
-        desc: "Taylor a custom music for Parties, Weddings and other events",
+        title: "Club DJing",
+        desc: "Delivering crowd-moving beats, and electrifying vibes to keep the party going all night",
       },
       {
         title: "Landing Page Design",
@@ -14,16 +14,16 @@ const Services = ({ variant = "default" }) => {
         desc: "Pre made and custom music production to bring your songs vision to life. ",
       },
       {
-        title: "Front-end Development",
-        desc: "Implementing designs with clean and efficient code using HTML, CSS, JS.",
+        title: "Weddings",
+        desc: "Delivering seamless mixes, personalized playlists, and unforgettable vibes.",
       },
       {
         title: "Music Post Production",
         desc: "Mixing and Mastering services available. Make Your Music Radio/Stream Ready",
       },
       {
-        title: "Back-end Development",
-        desc: "Building robust back-end systems using technologies like PHP and databases.",
+        title: "Private Events",
+        desc: "Proms, galas, or any special occasion where you want to dance and have fun",
       },
     ],
     variant2: [
