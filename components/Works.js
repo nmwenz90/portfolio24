@@ -50,7 +50,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
   const sectionContent = {
     default: {
       title:
-        "Explore the projects below to see how I bring ideas to life through thoughtful design and meticulous execution.",
+        "Explore my sets and music to see how I bring energy to the crowd through seamless mixes and curated vibes.",
       className: "no-top text-light",
     },
     variant2: {
