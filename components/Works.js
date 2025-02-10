@@ -16,10 +16,10 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
         year: "2023",
       },
       {
-        title: "Reactime",
-        image: "images/works/reactime.gif",
-        tag: "FRONT-END DEVELOPMENT",
-        year: "2020",
+        title: "",
+        image: "images/works/callPolice.webp",
+        tag: "Music",
+        year: "2025",
       },
     ],
     variant2: [
@@ -163,12 +163,13 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                     className={`hover relative overflow-hidden ${
                       isVariant2 ? "" : "text-light"
                     }`}
+                    height={380}
+                    width={"100%"}
                   >
-                    {/* <Link
-                      href={
-                        isVariant2 ? "03_work-single" : "https://reactime.io/"
-                      }
+                    <Link
+                      href={isVariant2 ? "03_work-single" : "#call"}
                       className="overflow-hidden d-block relative"
+                      id="call"
                     >
                       <h2
                         className={`fs-40 abs-centered z-index-1 hover-op-0 ${
@@ -182,7 +183,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                         className="img-fluid hover-scale-1-2"
                         alt="image"
                         height={380}
-                        style={{ maxWidth: "fit-content" }}
+                        // style={{ maxWidth: "fit-content" }}
                       />
                       <div className="absolute bottom-0 w-100 p-4 d-flex text-white justify-content-between">
                         <div className={isVariant2 ? "" : "d-tag-s2"}>
@@ -192,7 +193,7 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                           {work.year}
                         </div>
                       </div>
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
               );

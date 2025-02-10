@@ -9,7 +9,7 @@ const AvailableForWork = ({ variant = "default" }) => {
       subtitle: "Let's Work!",
       title: "Utah Based DJ/Producer",
       description:
-        "I started my DJ journey in Pittsburgh in 2013, spinning hip hop and EDM at venues like the Rex Theater and university events. In 2017, I moved to Los Angeles, performing at weddings and clubs like Catch One and The Parlor. Since 2021, I've been based in Salt Lake City, continuing to bring great vibes as an open-format DJ specializing in Top 40, EDM, and hip hop. For me, DJing is all about energizing the crowd and motivating people to dance.",
+        "DJ Lubaba started his DJ journey in Pittsburgh in 2013, spinning hip hop and EDM at venues like the Rex Theater and university events. In 2017, He moved to Los Angeles, performing at weddings and clubs like Catch One and The Parlor. Since 2021, He's been based in Salt Lake City, continuing to bring great vibes as an open-format DJ specializing in Top 40, EDM, and hip hop. For him, DJing is all about energizing the crowd and motivating people to dance.",
       aboutLink: "/about",
       imageSrc: "03_images/nate_bw.webp",
       counterColor: "color",
