@@ -166,34 +166,44 @@ const Works = ({ variant = "default", textColor = "light-text" }) => {
                     height={380}
                     width={"100%"}
                   >
-                    <Link
-                      href={isVariant2 ? "03_work-single" : "#call"}
-                      className="overflow-hidden d-block relative"
-                      id="call"
+                    <iframe
+                      width="100%"
+                      height="380"
+                      frameborder="no"
+                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2030340772&color=%23140b04&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    ></iframe>
+                    <div
+                      style={{
+                        fontSize: "10px",
+                        color: "#cccccc",
+                        lineBreak: "anywhere",
+                        wordBreak: "normal",
+                        overflow: "hidden",
+                        whiteSpace: "nowrap",
+                        textOverflow: "ellipsis",
+                        fontFamily:
+                          "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
+                        fontWeight: "100",
+                      }}
                     >
-                      <h2
-                        className={`fs-40 abs-centered z-index-1 hover-op-0 ${
-                          isVariant2 ? "text-white text-center" : ""
-                        }`}
+                      <a
+                        href="https://soundcloud.com/dj_lubaba"
+                        title="DJ Lubaba"
+                        target="_blank"
+                        style={{ color: "#cccccc", textDecoration: "none" }}
                       >
-                        {work.title}
-                      </h2>
-                      <img
-                        src={work.image}
-                        className="img-fluid hover-scale-1-2"
-                        alt="image"
-                        height={380}
-                        // style={{ maxWidth: "fit-content" }}
-                      />
-                      <div className="absolute bottom-0 w-100 p-4 d-flex text-white justify-content-between">
-                        <div className={isVariant2 ? "" : "d-tag-s2"}>
-                          {isVariant2 ? <h4>{work.tag}</h4> : work.tag}
-                        </div>
-                        <div className={isVariant2 ? "" : "fw-bold"}>
-                          {work.year}
-                        </div>
-                      </div>
-                    </Link>
+                        DJ Lubaba
+                      </a>{" "}
+                      ·{" "}
+                      <a
+                        href="https://soundcloud.com/dj_lubaba/call-the-police"
+                        title="Call the Police (feat. PRINZ)"
+                        target="_blank"
+                        style={{ color: "#cccccc", textDecoration: "none" }}
+                      >
+                        Call the Police (feat. PRINZ)
+                      </a>
+                    </div>
                   </div>
                 </div>
               );
