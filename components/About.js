@@ -8,7 +8,7 @@ const About = ({ variant = "default", aboutTitle = "About Me" }) => {
       title:
         "Transforming your vibe into an unforgettable experience with seamless transitions, high-energy beats, and a dancefloor that never stops moving.",
       paragraph1:
-        "I’m NateKodi, a DJ with a passion for creating unforgettable experiences. With over 8 years of spinning tracks, I enjoy crafting sets that are not just high-energy and dynamic but also flow seamlessly to keep the crowd moving all night long.",
+        "I’m a DJ with a passion for creating unforgettable experiences. With over 8 years of spinning tracks, I enjoy crafting sets that are not just high-energy and dynamic but also flow seamlessly to keep the crowd moving all night long.",
       paragraph2:
         "I specialize in curating custom DJ sets using the latest tracks and trends, blending genres like Top 40, EDM, and hip hop. Whether it’s a club night, wedding, or special event, I bring the energy to keep the vibe fresh and the dancefloor packed.",
     },
