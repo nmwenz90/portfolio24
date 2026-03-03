@@ -255,7 +255,7 @@ header.autoshow.scrollOn {
 }
 
 header.autoshow.scrollOff {
-  opacity: ;
+  opacity: .8;
   top: -120px;
 }
 
@@ -3957,7 +3957,7 @@ span.teaser {
 
 .ul-style-4 li {
   margin: 2px 0 2px 0;
-  display: ;
+  display: none;
   font-weight: 500;
 }
 
@@ -4582,7 +4582,7 @@ ol.ol-style-1.secondary li::before{
 }
 
 .pricing-s2.text-light .top .price,
-.pricing-s2.text-white .top .price,
+.pricing-s2.text-white .top .price
   {
   color: #ffffff;
 }
@@ -8958,7 +8958,7 @@ i.bg-color-secondary {
 
 
 .de-step-s1 {
-  overflow: ;
+  overflow: fixed;
   position: relative;
   padding: 30px;
   height: 100%;

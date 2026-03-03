@@ -65,7 +65,7 @@ const Services = ({ variant = "default" }) => {
             <div className="p-3 h-100 d-lg-block d-sm-none text-light jarallax">
               <img
                 src={
-                  isVariant2 ? "03_images/dj_ai.webp" : "03_images/dj_ai.webp"
+                  isVariant2 ? "03_images/natecl.jpeg" : "03_images/natecl.jpeg"
                 }
                 className="jarallax-img"
                 alt="image"
