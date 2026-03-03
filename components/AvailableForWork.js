@@ -1,5 +1,4 @@
 import Link from "next/link";
-import CounterSection from "./CounterSection";
 
 const AvailableForWork = ({ variant = "default" }) => {
   const isVariant2 = variant === "variant2";

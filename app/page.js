@@ -1,6 +1,5 @@
 import About from "@/components/About";
 import AvailableForWork from "@/components/AvailableForWork";
-import Blog from "@/components/Blog";
 import FitParentTitle from "@/components/FitParentTitle";
 import MarqueeNathan from "@/components/MarqueeNathan";
 import Services from "@/components/Services";
