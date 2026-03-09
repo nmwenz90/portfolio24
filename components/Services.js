@@ -64,11 +64,10 @@ const Services = ({ variant = "default" }) => {
           <div className="col-lg-4 wow fadeInRight" data-wow-delay=".3s">
             <div className="p-3 h-100 d-lg-block d-sm-none text-light jarallax">
               <img
-                src={
-                  isVariant2 ? "03_images/natecl.jpeg" : "03_images/natecl.jpeg"
-                }
+                src="03_images/natecl.webp"
                 className="jarallax-img"
                 alt="image"
+                loading="lazy"
               />
               <h3 className="abs-centered m-0">What I Do</h3>
             </div>

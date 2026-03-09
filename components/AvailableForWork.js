@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const AvailableForWork = ({ variant = "default" }) => {
   const isVariant2 = variant === "variant2";
@@ -10,7 +11,7 @@ const AvailableForWork = ({ variant = "default" }) => {
       description:
         "DJ Lubaba started his DJ journey in Pittsburgh in 2013, spinning hip hop and EDM at venues like the Rex Theater and university events. In 2017, He moved to Los Angeles, performing at weddings and clubs like Catch One and The Parlor. Since 2021, He's been based in Salt Lake City, continuing to bring great vibes as an open-format DJ specializing in Top 40, EDM, and hip hop. For him, DJing is all about energizing the crowd and motivating people to dance.",
       aboutLink: "/about",
-      imageSrc: "03_images/natebw2.jpeg",
+      imageSrc: "/03_images/natebw2.webp",
       counterColor: "color",
     },
     variant2: {
@@ -24,7 +25,7 @@ const AvailableForWork = ({ variant = "default" }) => {
       description:
         "Hi, I'm Selena, a passionate makeup artist based in the heart of New York City. With over 12 years of experience in the beauty industry, I've had the privilege of working with a diverse clientele.",
       aboutLink: "/03_about",
-      imageSrc: "03_images/nate_bw.webp",
+      imageSrc: "/03_images/nate_bw.webp",
       counterColor: "color-1",
     },
   };
@@ -57,11 +58,15 @@ const AvailableForWork = ({ variant = "default" }) => {
           </Link> */}
         </div>
         <div className="col-lg-6">
-          <img
+          <Image
             src={selectedContent.imageSrc}
             className="w-100 wow fadeInUp"
             data-wow-delay=".6s"
             alt="image"
+            width={600}
+            height={750}
+            priority
+            style={{ width: "100%", height: "auto" }}
           />
         </div>
       </div>

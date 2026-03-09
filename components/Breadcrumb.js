@@ -45,11 +45,13 @@ const Breadcrumb = ({
             src="images/misc/scratches-1.webp"
             className="w-20 ms-4 abs abs-middle"
             alt="image"
+            loading="lazy"
           />
           <img
             src="images/misc/scratches-2.webp"
             className="w-20 me-5 abs top-0 end-0"
             alt="image"
+            loading="lazy"
           />
         </Fragment>
       )}
