@@ -11857,6 +11857,12 @@ section.bg-grey {
   visibility: hidden;
 }
 
+@media (max-width: 768px) {
+  .wow {
+    visibility: visible !important;
+  }
+}
+
 #back-to-top {
   background: #ffffff;
   position: fixed;
@@ -15594,11 +15600,5 @@ img {
     -o-background-size: auto 100%;
     background-size: auto 100%;
     background-attachment: scroll;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .wow {
-    animation-delay: 0s !important;
   }
 }
