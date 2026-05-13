@@ -15596,3 +15596,9 @@ img {
     background-attachment: scroll;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .wow {
+    animation-delay: 0s !important;
+  }
+}
