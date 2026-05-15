@@ -6,7 +6,7 @@ export const nathanUtility = {
     animation using the `wowjs` library when the window is available. */
     if (typeof window !== "undefined") {
       window.WOW = require("wowjs");
-      if (window.innerWidth > 768) {
+      if (!window.matchMedia("(max-width: 768px)").matches) {
         new WOW.WOW().init();
       }
     }
